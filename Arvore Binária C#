@@ -1,0 +1,89 @@
+using System;
+
+namespace ArvoreBinaria
+{
+	class No
+	{
+		public int info;
+		public No esq;
+		public No dir;
+		public No(int info)
+		{
+			this.esq = null;
+			this.info = info;
+			this.dir = null;
+		}
+	}
+	class ArvoreBinaria
+	{
+		
+		private No raiz;
+
+		public ArvoreBinaria()
+		{
+			this.raiz = null;
+		}
+
+		public void PreOrdem()
+		{
+			PreOrdem(raiz);
+			Console.WriteLine();
+		}
+
+		// pre-ordem
+		private void PreOrdem(No no)
+		{
+			if (no == null)
+				return;
+
+			Console.WriteLine(no.info);
+			PreOrdem(no.esq);
+			PreOrdem(no.dir);
+		}
+
+		public void CriarArvore()
+		{
+			raiz = new No(8);
+			raiz.esq = new No(6);
+			raiz.dir = new No(10);
+			raiz.esq.esq = new No(5);
+			raiz.esq.dir = new No(7);
+			raiz.dir.esq = new No(9);
+		}
+
+		public void Inserir(int info)
+		{
+			if (this.raiz == null)
+				this.raiz = new No(info);
+			else
+				this.Inserir(info, this.raiz);
+		}
+
+		public void Inserir(int info, No no)
+		{
+			if (info < no.info)
+			{
+				if (no.esq != null)
+					this.Inserir(info, no.esq);
+				else
+					no.esq = new No(info);
+			}
+			else
+			{
+				if (no.dir != null)
+					this.Inserir(info, no.dir);
+				else
+					no.dir = new No(info);
+			}
+		}
+
+		static void Main()
+		{
+			ArvoreBinaria ab = new ArvoreBinaria();
+			ab.CriarArvore();
+			ab.PreOrdem();
+		}
+
+
+	}
+}
