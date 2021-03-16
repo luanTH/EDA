@@ -1,0 +1,539 @@
+using System;
+using System.Diagnostics;
+namespace TrabalhoEDA
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+            int n = 5000;
+            int qnt = 0;
+            int relevantes = 0;
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{                                      // Este é o pior caso, e partiremos dele para encontrar a complexidade
+ 
+                for(int i = 0; i<n ; i++)               // f(n) -> n
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++)      // f(n) -> n/2
+                    {
+                        qnt++;                         // A fórmula será a multiplicação da fórmula do primeiro laço, pela da segundo                        
+                        relevantes++;                  // f(n) = n*(n/2) -> (n^2)/2
+                    }                                  // Porém como isto ocorre outras 10 vezes antes de mudar o valor de n, multiplicaremos sua formula por 10          
+                }                                      // f(n) = (10*(n^2))/2 = 5(n^2)
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+             
+            n = n/5;                                         // n agora sera igual a 1000, logo n -> n/5
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{                                           // Este é o pior caso, e partiremos dele para encontrar a complexidade
+ 
+                for(int i = 0; i<n ; i++)                    // f(n) = n/5
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++)           // f(n) = (n/5)/2  = n/10   
+                    {
+                        qnt++;                               // A fórmula será a multiplicação da fórmula do primeiro laço, pela da segundo                        
+                        relevantes++;                        // f(n) = (n/5)*(n/10) = (n^2)/50
+                    }                                        // Porém como isto ocorre outras 10 vezes antes de mudar o valor de n, multiplicaremos sua formula por 10          
+                }                                            // f(n) = 10*(n^2)/50 = (n^2)/5
+            }
+            
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            // A complexidade final será a soma das complexidades calculadas pros dois casos
+            // f(n) = (5*(n^2))+((n^2)/5)
+            // f(n) = 26*(n^2)/5 = 5,2(n^2)-> Logo, a complexidade continua sendo O(n^2)
+            
+            stopwatch.Stop();
+            Console.WriteLine("Tempo de execução: "+stopwatch.ElapsedTicks+" ns"); 
+            Console.WriteLine("Instruções executadas: "+qnt);
+            Console.WriteLine("Instruções relevantes executadas: "+relevantes);
+            Console.WriteLine("Entradas: "+n);
+        }
+    }
+}
