@@ -1,0 +1,535 @@
+using System;
+using System.Diagnostics;
+namespace TrabalhoEDA
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+            int n = 5000;
+            int qnt = 0;
+            int relevantes = 0;
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+             
+            n = n/5; // n agora sera igual a 1000
+
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            if(n <= qnt){
+                
+                qnt++;
+
+            }else if(n <= qnt*10){
+
+                for(int i = 0; i<n ; i++)
+                {
+                    qnt++;
+                }
+                
+            }else{ 
+ 
+                for(int i = 0; i<n ; i++) 
+                {
+                    qnt++;
+                    relevantes++;
+
+                    for(int j = 0 ; j < n/2 ; j++) 
+                    {
+                        qnt++;
+                        relevantes++; 
+                    }
+                }
+            }
+            
+            stopwatch.Stop();
+            Console.WriteLine("Tempo de execução: "+stopwatch.ElapsedTicks+" ns"); 
+            Console.WriteLine("Instruções executadas: "+qnt);
+            Console.WriteLine("Instruções relevantes executadas: "+relevantes);
+            Console.WriteLine("Entradas: "+n);
+        }
+    }
+}
