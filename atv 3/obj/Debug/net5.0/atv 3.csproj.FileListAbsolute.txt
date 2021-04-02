@@ -1,0 +1,16 @@
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\bin\Debug\net5.0\atv 3.exe
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\bin\Debug\net5.0\atv 3.deps.json
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\bin\Debug\net5.0\atv 3.runtimeconfig.json
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\bin\Debug\net5.0\atv 3.runtimeconfig.dev.json
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\bin\Debug\net5.0\atv 3.dll
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\bin\Debug\net5.0\ref\atv 3.dll
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\bin\Debug\net5.0\atv 3.pdb
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.csprojAssemblyReference.cache
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.AssemblyInfoInputs.cache
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.AssemblyInfo.cs
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.csproj.CoreCompileInputs.cache
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.dll
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\ref\atv 3.dll
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.pdb
+C:\Users\luant\OneDrive\Área de Trabalho\atv 3\obj\Debug\net5.0\atv 3.genruntimeconfig.cache
